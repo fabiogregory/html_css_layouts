@@ -1,0 +1,108 @@
+body {
+    background: #F2F2F2;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+
+.flex-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+  
+}
+
+.container {
+    display: flex;
+    width: 920px;
+    height: 500px;
+    background: #E28625;
+    border-radius: 8px;
+
+    
+    
+}
+
+.coluna1 {
+    flex: 1;
+    display: flex;
+
+}
+
+.coluna2 {
+    flex: 1;
+    display: flex;
+    background: #006971;
+    border-top-left-radius:  8px;
+    border-bottom-left-radius: 8px;
+}
+
+.coluna3 {
+    flex: 1; 
+    display: flex;
+    background: #004140;
+    border-radius: 8px;
+}
+
+img {
+    width: 63.9px;
+    height: 40px;
+    margin: 48px 0px 35px 48px;
+}
+
+h1 {
+    font-family:'Big Shoulders Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: #F2F2F2;
+    margin: 0px 0px 25px 48px
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    margin: 0px 0px 83px 47.5px;
+    width: 212px;
+    height: 125px;
+}
+
+.btn {
+    background: #F2F2F2;
+    border-radius: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    width: 146px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 48px 48px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn .btn-sedans {
+    text-decoration: none;
+    color:  #E28625;
+}
+
+.btn .btn-suvs {
+    text-decoration: none;
+    color:  #006971;
+}
+
+.btn .btn-luxury  {
+    text-decoration: none;
+    color: #004140;
+}

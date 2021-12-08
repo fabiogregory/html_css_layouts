@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	background: #E9EEF6;
+	font-family: 'IBM Plex Sans', sans-serif;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 28px;
+	text-align: center;
+	color: #000000;
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+.container {
+	min-width: 1300px;
+	background: #FFFFFF;
+	border-radius: 32px;
+	padding: 90px 60px;
+}
+
+.container h1 {
+	margin-top: 6px;
+	margin-bottom: 64px;
+}
+
+.colecoes {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.card {
+	width: 355px;
+	padding: 35px 51px 51px 51px;
+	border-radius: 5px;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0px 0px 0px 100px;
+
+}
+
+
+.btn {
+	min-width: 226px;
+	font-weight: 600;
+	font-size: 16px;
+	text-align: center;
+	align-self: center;
+
+	background: #0C1727;
+	border-radius: 3px;
+	padding: 12px 18px;
+}
+
+.card h1 {
+	margin-bottom: 10px;
+}
+
+.card p {
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+.card-search{
+	background: #F8F2FA;
+}
+
+.card-globo{
+	background: #FAF2F4;
+}
+
+.card-maps{
+	background: #F5F2FA;
+}
